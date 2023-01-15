@@ -27,6 +27,7 @@ Angular ( Componentes, Serviços e Routing)
 
 #### @author:
 Andrei Toledo
+
 Analista e Desenvolvedor de Sistemas
 
 
