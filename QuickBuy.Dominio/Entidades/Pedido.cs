@@ -19,8 +19,8 @@ namespace QuickBuy.Dominio.Entidades
         public int NumeroEndereco { get; set; }
         public int FormaPagamentoId { get; set; }
         public virtual FormaPagamento FormaPagamento { get; set; }      
-        
-        // comentario teste para o git 
+
+        // ajuste teste 2 para git
         
    
         /// <summary>
