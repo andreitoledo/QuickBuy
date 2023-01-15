@@ -7,6 +7,8 @@
         public string Descricao { get; set; }
         public decimal Preco { get; set; }
 
+        // teste produto
+
         public override void Validate()
         {
             if (string.IsNullOrEmpty(Nome))
