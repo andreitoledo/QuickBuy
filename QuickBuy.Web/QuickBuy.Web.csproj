@@ -24,20 +24,20 @@
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
     <Content Remove="$(SpaRoot)**" />
+    <Content Remove="ClientApp\src\app\NewFolder\**" />
     <None Remove="$(SpaRoot)**" />
+    <None Remove="ClientApp\src\app\NewFolder\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="ClientApp\src\app\NewFolder\produto.component.ts" />
+    <Compile Remove="ClientApp\src\app\NewFolder\**" />
+    <EmbeddedResource Remove="ClientApp\src\app\NewFolder\**" />
+    <TypeScriptCompile Remove="ClientApp\src\app\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\QuickBuy.Repositorio\QuickBuy.Repositorio.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <TypeScriptCompile Include="ClientApp\src\app\NewFolder\produto.component.ts" />
   </ItemGroup>
 
   <ItemGroup>
