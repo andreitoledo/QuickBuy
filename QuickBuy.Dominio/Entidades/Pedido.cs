@@ -20,7 +20,7 @@ namespace QuickBuy.Dominio.Entidades
         public int FormaPagamentoId { get; set; }
         public virtual FormaPagamento FormaPagamento { get; set; }      
         
-        //teste
+        // comentario teste para o git 
         
    
         /// <summary>
