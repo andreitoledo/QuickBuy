@@ -1,10 +1,10 @@
 # QuickBuy
 
-### Projeto
+### Projeto em desenvolvimento
 
 Loja Virtual
 
-### Desenvolvimento
+#### Tecnologias
 
 Visual Studio 2019
 
