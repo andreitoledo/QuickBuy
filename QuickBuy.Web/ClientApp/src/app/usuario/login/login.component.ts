@@ -9,14 +9,16 @@ import { Usuario } from "../../modelo/usuario";
 })
 export class LoginComponent {
 
-  public usuario = new Usuario();
+  public usuario = new Usuario();  
 
   constructor() {
     this.usuario = new Usuario();
   }
   
   entrar() {
-    alert(this.usuario.email + " - " + this.usuario.senha);
+    if (this.usuario.email == "andreiltoledo@hotmail.com" && this.usuario.senha == "123456") {
+     
+    }
    
   }  
 
