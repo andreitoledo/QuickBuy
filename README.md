@@ -1,6 +1,6 @@
 # QuickBuy
 
-### Projeto
+### Projeto em desenvolvimento
 
 Loja Virtual
 
