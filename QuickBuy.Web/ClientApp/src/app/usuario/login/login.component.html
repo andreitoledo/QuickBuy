@@ -12,13 +12,12 @@
            required/>
     <div class="alert alert-danger" *ngIf="email.invalid && (email.dirty || email.touched)">
       <div *ngIf="email.errors.required">
-        Email deve ser preenchido !
+        Email é de preenchimento obrigatório !
       </div>
       <div *ngIf="email.errors.email">
-        Email no formato invalido !
+        Email está no formato inválido !
       </div>
     </div>
-
 
     <label for="inputSenha" class="sr-only">Senha</label>
     <input type="password" id="inputSenha"
