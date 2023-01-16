@@ -4,7 +4,7 @@
 
 Loja Virtual
 
-### Desenvolvimento
+#### Tecnologias
 
 Visual Studio 2019
 
