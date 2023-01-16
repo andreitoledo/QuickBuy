@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Usuario } from "../../modelo/usuario";
 
 @Component({
   selector: "app-login",
@@ -7,13 +8,16 @@ import { Component } from "@angular/core";
 
 })
 export class LoginComponent {
+
+  public usuario = new Usuario();
+
+  constructor() {
+    this.usuario = new Usuario();
+  }
   
   entrar() {
-    alert('Entrar no sistema');
-  }
-
-  on_keypress() {
-    alert('foi digitado no campo de email');
-  }
+    alert(this.usuario.email + " - " + this.usuario.senha);
+   
+  }  
 
 }
