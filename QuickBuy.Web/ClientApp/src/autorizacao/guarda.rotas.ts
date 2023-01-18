@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Router, CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot } from "@angular/router";
-import { Observable } from "rxjs";
+
 
 Injectable({
   providedIn:'root'
@@ -19,14 +19,16 @@ export class GuardaRotas implements CanActivate {
     if (autenticado == "1") {
       return true;
     }
+    alert(state.url);
     this.router.navigate(['/entrar'], { queryParams: { returnUrl: state.url } });   
     return false
 
     
-    }
+  }
 
   
-    }
+}
+
 
 
 

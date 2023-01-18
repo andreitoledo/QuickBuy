@@ -14,6 +14,7 @@ var GuardaRotas = /** @class */ (function () {
         if (autenticado == "1") {
             return true;
         }
+        alert(state.url);
         this.router.navigate(['/entrar'], { queryParams: { returnUrl: state.url } });
         return false;
     };
