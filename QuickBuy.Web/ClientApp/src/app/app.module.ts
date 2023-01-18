@@ -32,6 +32,7 @@ import { GuardaRotas } from '../autorizacao/guarda.rotas';
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'produto', component: ProdutoComponent, canActivate: [GuardaRotas] },
+      //{ path: 'produto', component: ProdutoComponent },
       { path: 'entrar', component: LoginComponent}
     ])
   ],

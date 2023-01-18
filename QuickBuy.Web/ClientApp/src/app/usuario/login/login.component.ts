@@ -17,7 +17,7 @@ export class LoginComponent {
   
   entrar() {
     if (this.usuario.email == "andreiltoledo@hotmail.com" && this.usuario.senha == "123456") {
-      localStorage.setItem("usuario-autenticado", "1");
+      sessionStorage.setItem("usuario-autenticado", "1");
       this.router.navigate(['/']);
     }
    

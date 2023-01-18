@@ -10,7 +10,7 @@ var GuardaRotas = /** @class */ (function () {
         this.router = router;
     }
     GuardaRotas.prototype.canActivate = function (route, state) {
-        var autenticado = localStorage.getItem("usuario-autenticado");
+        var autenticado = sessionStorage.getItem("usuario-autenticado");
         if (autenticado == "1") {
             return true;
         }
