@@ -32,6 +32,8 @@
     <None Remove="ClientApp\src\app\modelo\usuario.ts" />
     <None Remove="ClientApp\src\app\usuario\login\login.component.ts" />
     <None Remove="ClientApp\src\autorizacao\guarda.rotas.ts" />
+    <None Remove="ClientApp\src\servicos\produto\produto.servico.ts" />
+    <None Remove="ClientApp\src\servicos\usuario\usuario.servico.ts" />
   </ItemGroup>
 
   <ItemGroup>
